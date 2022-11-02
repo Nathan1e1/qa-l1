@@ -67,9 +67,9 @@ jobs:
     - run: echo '${{github.repository}}'
     - run: ls -a
     # Command to print out the contents of a file
-    - run: cat file1.txt
-    - run: echo "This is new text" >> file1.txt
-    - run: cat file1.txt
+    - run: cat new-file.txt
+    - run: echo "This is new text" >> new-file.txt
+    - run: cat new-file.txt
     - run: python hello.py
     
   print_job:
